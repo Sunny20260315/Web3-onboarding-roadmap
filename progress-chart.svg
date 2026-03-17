@@ -1,0 +1,45 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="300" fill="#fafafa"/>
+  <text x="300" y="30" text-anchor="middle" font-size="18" font-weight="bold">学习进度看板</text>
+  
+  <rect x="150" y="60" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="60" width="0" height="18" fill="#2196F3" rx="9"/>
+  <text x="140" y="73" text-anchor="end" font-size="11" fill="#333">Web2 Foundation</text>
+  <text x="155" y="73" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="85" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="85" width="0" height="18" fill="#9C27B0" rx="9"/>
+  <text x="140" y="98" text-anchor="end" font-size="11" fill="#333">Blockchain Core</text>
+  <text x="155" y="98" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="110" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="110" width="0" height="18" fill="#FF9800" rx="9"/>
+  <text x="140" y="123" text-anchor="end" font-size="11" fill="#333">Smart Contract</text>
+  <text x="155" y="123" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="135" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="135" width="0" height="18" fill="#4CAF50" rx="9"/>
+  <text x="140" y="148" text-anchor="end" font-size="11" fill="#333">Web3 Frontend</text>
+  <text x="155" y="148" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="160" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="160" width="0" height="18" fill="#F44336" rx="9"/>
+  <text x="140" y="173" text-anchor="end" font-size="11" fill="#333">Fullstack DApp</text>
+  <text x="155" y="173" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="185" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="185" width="0" height="18" fill="#00BCD4" rx="9"/>
+  <text x="140" y="198" text-anchor="end" font-size="11" fill="#333">DeFi Protocol</text>
+  <text x="155" y="198" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="210" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="210" width="0" height="18" fill="#E91E63" rx="9"/>
+  <text x="140" y="223" text-anchor="end" font-size="11" fill="#333">NFT Metaverse</text>
+  <text x="155" y="223" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="235" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="235" width="0" height="18" fill="#3F51B5" rx="9"/>
+  <text x="140" y="248" text-anchor="end" font-size="11" fill="#333">DAO Governance</text>
+  <text x="155" y="248" font-size="10" fill="#666">0%</text>
+  <rect x="150" y="260" width="400" height="18" fill="#eee" rx="9"/>
+  <rect x="150" y="260" width="0" height="18" fill="#795548" rx="9"/>
+  <text x="140" y="273" text-anchor="end" font-size="11" fill="#333">Advanced Topics</text>
+  <text x="155" y="273" font-size="10" fill="#666">0%</text>
+  
+  <text x="300" y="280" text-anchor="middle" font-size="12" fill="#666">
+    更新于 2026-03-17 | 总体 0%
+  </text>
+</svg>

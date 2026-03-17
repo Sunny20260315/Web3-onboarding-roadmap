@@ -1,0 +1,55 @@
+{
+  "last_updated": "2026-03-17T04:11:42.984480",
+  "stats": {
+    "01-Web2-Foundation": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "02-Blockchain-Core": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "03-Smart-Contract": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "04-Web3-Frontend": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "05-Fullstack-DApp": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "06-DeFi-Protocol": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "07-NFT-Metaverse": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "08-DAO-Governance": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "09-Advanced-Topics": {
+      "score": 0,
+      "percentage": 0,
+      "grade": "⚪ 待开始"
+    },
+    "overall": {
+      "percentage": 0,
+      "modules_completed": 0,
+      "total_modules": 9
+    }
+  }
+}
