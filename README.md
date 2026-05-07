@@ -5,6 +5,7 @@
 <div align="center">
 
 **从传统前端到区块链全栈的完整开源学习指南**
+Go链开发全记录｜Go｜go-ethereum｜链上服务｜实战踩坑｜学习路线｜适合零基础转型链后端
 
 [🌐 在线阅读](https://Sunny20260315.github.io/Web3-onboarding-roadmap/) | [📝 贡献指南](./CONTRIBUTING.md) | [💬 加入讨论](https://github.com/Sunny20260315/Web3-onboarding-roadmap/discussions)
 
@@ -96,6 +97,9 @@ graph TD
 ![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
 
 ---
+
+## ⭐ Star
+正在从传统开发转型Web3的小伙伴，欢迎 Star，一起交流。
 
 ## 🤝 贡献指南
 
