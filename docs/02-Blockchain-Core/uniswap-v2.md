@@ -86,7 +86,7 @@ Gas 成本 中等 偏高 大幅降低单例 + 闪电记账优化
 
 Uniswap V2 采用了 Core（核心） 与 Periphery（外围） 分离的架构。这是为了确保最关键的资金存储逻辑尽可能简单、安全，而复杂的业务逻辑放在可替换的外围。
 
-![alt text](image-9.png)
+![alt text](../images/image-9.png)
 
 ### Core 核心合约
 

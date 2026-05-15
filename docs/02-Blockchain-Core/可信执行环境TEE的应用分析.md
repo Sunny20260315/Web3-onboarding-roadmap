@@ -57,7 +57,7 @@ TEE的核心创新在于，它通过硬件级别的隔离，直接在CPU内部�
 - 作为开源TEE解决方案，可高度定制化，适用于物联网、智能汽、嵌入式AI设备等。
 - 由于RISC-V是开源架构，Keystone适学术研究、实验性安全计算。
 
-![alt text](image-14.png)
+![alt text](../images/image-14.png)
 
 ## 可扩展性分析
 
@@ -74,7 +74,7 @@ TEE的核心创新在于，它通过硬件级别的隔离，直接在CPU内部�
 - AWSNitroEnclaves计算开销低，但vsock通信限制可能影响吞吐量。
 - ARMTrustZone&RISC-VKeystone在嵌入式场景下，性能损耗较低。
 
-![alt text](image-15.png)
+![alt text](../images/image-15.png)
 
 # TEE 环境数据存储对比分析
 
@@ -86,7 +86,7 @@ TEE的核心创新在于，它通过硬件级别的隔离，直接在CPU内部�
   - 内存春初：TEE允许在内存中存储数据，但数据仅在运行时可用，TEE关闭后数据会消失
   - 加密数据传输：TEE内的数据可以加密后存储到外部存储（如S3、EBS、数据库），并在需要时解密加载到TEE内部使用
 
-![alt text](image-16.png)
+![alt text](../images/image-16.png)
 
 TEE适用于数据保护和计算，但不适用于长期存储敏感数据，需要通过加密+外部存储结合使用。
 
