@@ -1,5 +1,7 @@
 # 以太坊EIP协议讲解
 
+RIP是草案、EIP是草案、ERC是基于EIP实现的合约标准。
+
 ## EIP
 
 EIP（Ethereum Improvement Proposal）是指以太坊的改进提案，用于改进以太坊的协议，涵盖所有层面的变更。
@@ -13,6 +15,9 @@ EIP（Ethereum Improvement Proposal）是指以太坊的改进提案，用于改
 - EIP-4844: 数据可用层协议
 - EIP-4788
 - EIP-7702
+- EIP1193：统一钱包基础通信接口
+- EIP6963：在 1193 基础上，再加一套多钱包发现、选择的接口规范
+- EIP4361(SIWE)：登录签名的接口规范
 
 ## ERC（代币标准）
 
