@@ -147,6 +147,40 @@ Approve 联动： 检查用户当前钱包对该代币的授权额度（Allowanc
 - `useAllowance`：查授权额度
 - `usePosition`：查 V3 NFT 仓位信息
 
+补充一个工具函数：
+
+```
+import { BigintIsh, Price, Token } from '@uniswap/sdk-core';
+import { TickMath, tickToPrice } from '@uniswap/v3-sdk';
+
+/**
+ * 前端核心工具：将合约里的 tick 转换为用户看得懂的 Price 字符串
+ * @param token0 交易对中的代币0
+ * @param token1 交易对中的代币1
+ * @param tick 合约当前或区间的 tick
+ */
+export function convertTickToHumanPrice(token0: Token, token1: Token, tick: number): string {
+  try {
+    // 1. 使用 Uniswap 官方 SDK 将离散的 tick 转换为 Price 对象
+    const priceObj: Price<Token, Token> = tickToPrice(token0, token1, tick);
+
+    // 2. 转换成人类直观的十进制字符串（自动处理了 token0 和 token1 的 decimals 精度差异）
+    return priceObj.toSignificant(6);
+  } catch (error) {
+    console.error("Tick 转换价格失败", error);
+    return "0";
+  }
+}
+
+/**
+ * 避坑公式（背诵）：
+ * 合约里的价格并不是普通的浮点数，而是以 X96 形式存储的固定小数点数。
+ * sqrtPriceX96 = sqrt(price) * 2^96
+ * 前端展示当前池子价格时，如果不想调用 SDK，可以用以下公式纯手工转换：
+ * price = (sqrtPriceX96 / 2^96) ^ 2 * (10^decimalsToken0 / 10^decimalsToken1)
+ */
+```
+
 ---
 
 ## 五、可直接复制的代码片段（Wagmi + Viem，V3 为主）
