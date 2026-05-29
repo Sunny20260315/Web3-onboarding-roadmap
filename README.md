@@ -5,7 +5,9 @@
 <div align="center">
 
 **从传统前端到区块链全栈的完整开源学习指南**
-Go链开发全记录｜Go｜go-ethereum｜链上服务｜实战踩坑｜学习路线｜适合零基础转型链后端
+Go链开发全记录｜Go｜go-ethereum｜链上服务｜实战踩坑｜学习路线｜适合零基础转型区块链开发
+
+还包含传统web2的基础知识及面试题汇总。
 
 [🌐 在线阅读](https://Sunny20260315.github.io/Web3-onboarding-roadmap/) | [📝 贡献指南](./CONTRIBUTING.md) | [💬 加入讨论](https://github.com/Sunny20260315/Web3-onboarding-roadmap/discussions)
 
